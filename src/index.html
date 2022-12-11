@@ -1,0 +1,27 @@
+<html>
+
+<head>
+    <title>REST CLIENT DEMO</title>
+    <script src="index.js"></script>
+    <script src="ajax.service.js"></script>
+    <link rel="stylesheet" href="style.css">
+    </link>
+</head>
+
+<body>
+    <div id="loginPanel" class="panel">
+        <div style="text-align: center; margin-bottom: 4px;">App login</div>
+        <input type="text" placeholder="Username" id="login">
+        <input type="password" placeholder="Password" id="password">
+        <input type="button" id="loginBtn" value="Login">
+        <div id="message"></div>
+    </div>
+    <div id="appPanel" class="panel" style="display: none">
+        Welcome <span id="userDetails"></span>!
+        <div>
+            <input type="button" id="showUsersBtn" value="Show all users">
+        </div>
+    </div>
+</body>
+
+</html>

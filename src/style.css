@@ -1,0 +1,31 @@
+body,
+html {
+    background-color: whitesmoke;
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+.panel {
+    height: max-content;
+    width: 440px;
+    margin: auto;
+    border: 1px black solid;
+    padding: 10px;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+.panel input {
+    padding: 5px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+#message {
+    color: red;
+}
